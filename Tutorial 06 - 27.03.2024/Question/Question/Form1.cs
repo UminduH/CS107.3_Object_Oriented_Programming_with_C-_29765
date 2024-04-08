@@ -175,7 +175,7 @@ namespace Question
         private void btnReset_Click(object sender, EventArgs e)
         {
             Placeholder(txtName, "Enter Employee Name");
-            Placeholder(txtContactNo, "Enter Contact No.");
+            Placeholder(txtContactNo, "Enter Contact Number");
             Placeholder(txtEmail, "eg: abc123@gmail.com");
             Placeholder(txtAddress, "Enter Address");
             dateTimePickerDOB.Value = DateTime.Today;
